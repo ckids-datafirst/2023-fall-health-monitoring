@@ -12,7 +12,7 @@ organizations:
   - name: University of Southern California
     url: "https://www.usc.edu/"
 role: Student
-title: Buffy Summers
+title: Alexander Billups
 user_groups:
   - Students
 ---
