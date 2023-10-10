@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        The title of your CDISK project
+        Databidet
       image:
         filename: welcome.jpg
       text: |
