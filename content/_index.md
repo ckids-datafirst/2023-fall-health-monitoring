@@ -8,15 +8,11 @@ sections:
   - block: hero
     content:
       title: |
-        Databidet
+        Quality Health Monitoring While You Sit
       image:
         filename: welcome.jpg
       text: |
-        This [Fall 2023](https://ckids-datafirst.github.io/website/editions/2023-fall/#dates) [DataFirst project](https://ckids-datafirst.github.io/website/) addressed the problem of [1-sentence problem statement](problem-statement). It uses data about [1-sentence data description](data). Our work focuses on [1-sentence description of approach](approach). Our initial results indicate [1-sentence summary of results](results).
-
-        Optional: This project builds on the work of a [previous DataFirst project|link to another project from a previous semester].
-
-        Our data science project endeavors to tackle [problem statement]. Our motivation to address this problem stems from [explain the motivation behind the project, e.g., its potential to improve lives, contribute to a specific field, or drive innovation].
+        This [Fall 2023](https://ckids-datafirst.github.io/website/editions/2023-fall/#dates) [DataFirst project](https://ckids-datafirst.github.io/website/) addressed the problem of [developing a software-as-a-service data pipeline for collecting health biomarkers, culminating in a Clinical Data Management System (CDMS), to enable real-time deviation flagging in compliance with clinical standards and regulations](problem-statement). It uses data about [unique patient IDs, weight, pulse oximetry measurements, date-time records, and duration information to investigate physiological patterns in the context of sleep and stress](data). Our work focuses on [a comprehensive approach that encompasses the collection of synthesized sensor data, rigorous adherence to HIPAA compliance standards during data upload, the development of an analysis dashboard for visualization, the establishment of a No-SQL database integrated with an API, and the execution of clinical analysis to generate reimbursable reports](approach). Our initial results indicate [the viability of creating such a service, but the testing is still underway](results).
 
     design:
       columns: "1"
