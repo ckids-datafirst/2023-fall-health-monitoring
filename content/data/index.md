@@ -14,16 +14,16 @@ Our initial dataset for this proof of concept was acquired from Kaggle. This dat
 ## Data Overview and Examples
 
 Each row of the dataset represents the data collected every time one of our hypothetical patients uses the smart toilet seat. It is sorted by date and contains synthetic data for one month from 03-01-2023 to 03-28-2023 for 630 patients assuming every patient uses the toilet seat twice a day. The patient.csv dataset contains the following parameters:
--patient_id
--date
--time
--length_of_time(sec)	
--weight(lbs)	
--pulse_oximetry	
--heart_rate	
--bp_sys
--bp_dia	
--temperature
+1) patient_id
+2) date
+3) time
+4) length_of_time(sec)	
+5) weight(lbs)	
+6) pulse_oximetry	
+7) heart_rate	
+8) bp_sys
+9) bp_dia	
+10) temperature
 
 Apart from this, we also created two other datasets: 
 -Patient demographic - contains information like age and sex of a patient
