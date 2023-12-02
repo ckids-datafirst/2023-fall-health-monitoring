@@ -10,15 +10,11 @@ This page contains key sections of the **Final Report** for the project focused 
 
 ## System and Model Performance
 
-Show the performance of the best system and model(s) developed, showing clearly the performance metrics and improvements over the baseline system as appropriate.  Create visualizations that show clearly these results.
+Our system and model of flagging data works as expected given the parameters we gave. The next steps will be to go from working with static data to real time data that is constantly fed into the database.
 
 ## Discussion of Findings
 
-Offer a discussion of the main findings using the system developed. Put the results in the context of the original problem statement and the questions that were posed.
-
-Discuss any unexpected results, and potential explanations.
-
-Enumerate (ideally in bullets) the most important findings, and their impact on your project goals.
+We were able to flag risks of heart failure with the patinets in our database, but the true results will come when we are able to connect red flags into patient outcomes with heart failure. With this addtional metric, we would able to fine tune our flagging system and provide the most reliable system for detecting heart failure. 
 
 ## Limitations and Future Work
 
