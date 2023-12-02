@@ -36,7 +36,7 @@ We would like to upload our datasets to HIPAA compliant cloud database services 
 
 ## Data Formats
 
-The data is tabular and in csv format.
+Our data is tabular and in csv format.
 
 ## Data Challenges
 
