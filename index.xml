@@ -28,7 +28,7 @@
 &lt;h2 id="data-accessibility">Data Accessibility&lt;/h2>
 &lt;p>We would like to upload our datasets to HIPAA compliant cloud database services like Amazon’s DynamoDB and S3 buckets. APIs will be used to perform CRUD operations on the data.&lt;/p>
 &lt;h2 id="data-formats">Data Formats&lt;/h2>
-&lt;p>The data is tabular and in csv format.&lt;/p>
+&lt;p>Our data is tabular and in csv format.&lt;/p>
 &lt;h2 id="data-challenges">Data Challenges&lt;/h2>
 &lt;p>The biggest challenge for our project was to synthesize data that appropriately represents the real world.We had to randomly generate biomarker values and then carefully inject anomalies.&lt;/p>
 &lt;h2 id="data-visualizations-and-highlights">Data Visualizations and Highlights&lt;/h2>
