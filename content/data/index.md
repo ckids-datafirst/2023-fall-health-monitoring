@@ -9,23 +9,38 @@ share: false
 
 ## Introduction
 
-This page serves as a Data Assessment Document for the project.  It should be no more than 2-3 pages long.  It can be drafted in the first two weeks of the project, and can serve as an interim project report.  It can be refined as the project progresses and the use of the data is better understood.  
+Our initial dataset for this proof of concept was acquired from Kaggle. This data includes height, weight and pulse oximetry. We synthesized the rest of the attributes (blood pressure, heart rate, temperature and daily calories) by looking at the global normal ranges. And then we injected some anomalies into the dataset to help with analysis. Most of the data was synthesized since biomarker data is usually private and hard to access. 
 
 ## Data Overview and Examples
 
-Give a brief description of the data provided for this project, what it represents, how it was collected, and why it may help address the problem you are tackling.  Discuss if you will be using all the data or only some subset of it for the project.  Consider possible additional data that may be publicly available in the open Web that might complement the data that you are given.
+Each row of the dataset represents the data collected every time one of our hypothetical patients uses the smart toilet seat. It is sorted by date and contains synthetic data for one month from 03-01-2023 to 03-28-2023 for 630 patients assuming every patient uses the toilet seat twice a day. The patient.csv dataset contains the following parameters:
+-patient_id
+-date
+-time
+-length_of_time(sec)	
+-weight(lbs)	
+-pulse_oximetry	
+-heart_rate	
+-bp_sys
+-bp_dia	
+-temperature
+
+Apart from this, we also created two other datasets: 
+-Patient demographic - contains information like age and sex of a patient
+-Calories - to measure daily activity of a patient, this is a separate  dataset since it is collected at the end of each day, and not a irregular intervals like the other parameters
+
 
 ## Data Accessibility
 
-Summarize how the data can be accessed. For example, data may be available for download in files, or accessible through an API, or can be queried from a database.  Mention any restrictions in accessing the data, for example if it is sensitive data that can only accessed with special permission.
+We would like to upload our datasets to HIPAA compliant cloud database services like Amazon’s DynamoDB and S3 buckets. APIs will be used to perform CRUD operations on the data.
 
 ## Data Formats
 
-Describe briefly the formats of the data.  Common data formats include CSV, JSON, XML, shapefiles, or any other specific formats relevant to your website.
+The data is tabular and in csv format.
 
 ## Data Challenges
 
-Summarize why analyzing this data will be challenging. This may include issues like data heterogeneity, data size, and any pre- or post-processing needs. Explain some ideas for how these challenges could be addressed.
+The biggest challenge for our project was to synthesize data that appropriately represents the real world.We had to randomly generate biomarker values and then carefully inject anomalies.
 
 ## Data Visualizations and Highlights
 
