@@ -44,7 +44,6 @@ The biggest challenge for our project was to synthesize data that appropriately 
 
 ## Data Visualizations and Highlights
 
-Including a visualization is a simple way to show something interesting about the data.  Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.
+![Entries and metrics for Patient 1001](assets/media/dataScreenshot.jpg)
 
-![]dataScreenshot.png
 
