@@ -22,4 +22,4 @@ Enumerate (ideally in bullets) the most important findings, and their impact on 
 
 ## Limitations and Future Work
 
-Discuss any limitations of the work to date, how these limitations could be addressed in future work.  Discuss what lines of work are most promising given the understanding of the problem and the data gained throughout the project.
+One limitation is that our dashboard and website is not yet fully functional. We are working on connecting our data to the dashboard so that it can be viewed in real time. Another limitation of our project is that we are currently working with dummy data that we got from Kaggle and that we generated ourselves. Because we have not yet worked with data from real patients, we do not yet know whether or not our method for flagging anomalies needs to be tweaked. Although we are still working on the flagging system, this is also the most promising part of our project because it is a clear and easy way for both clinicians and patients to see anomalies in their health data. Future work will include checking to see if our flagging system is accurate.
