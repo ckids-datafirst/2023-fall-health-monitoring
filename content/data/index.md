@@ -4,7 +4,7 @@ summary: Data Assessment Document that gives an overview of the data used for th
 
 date: "2018-06-28T00:00:00Z"
 editable: true
-share: false
+share: true
 ---
 
 ## Introduction
@@ -45,4 +45,6 @@ The biggest challenge for our project was to synthesize data that appropriately 
 ## Data Visualizations and Highlights
 
 Including a visualization is a simple way to show something interesting about the data.  Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.
+
+![]dataScreenshot.png
 
