@@ -3,10 +3,8 @@ title: Results
 summary: The main results of the work done to date
 date: "2018-06-28T00:00:00Z"
 editable: true
-share: false
+share: true
 ---
-
-This page contains key sections of the **Final Report** for the project focused on results to date.  It should be no more than 2 pages long.  An initial draft can be created at any point during the project, and can be refined as the project progresses.
 
 ## System and Model Performance
 
