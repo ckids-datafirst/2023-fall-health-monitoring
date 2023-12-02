@@ -8,17 +8,19 @@
 &lt;p>The main goal of this project was to detect heart failure, and with certainty that patient data wasn&amp;rsquo;t static and not drastically abnormal (people can slip up from time to time), we charted forward to flagging health metrics that could lead to heart failure. With the fully completed database, the way that we flagged health metrics for each patient was by using both a personal and public range to determine if the metric is normal, risky (yellow), or dangerous (red). For the personal range, we added the range of all the entries of the health metric for that patient, and for the public range, we used the normal/healthy ranges given by health experts. We looked at how much the patient deviated from both ranges, and if it was less than one, it was normal/healthy. If it was between 1 and 3, then it would be categorized as risky and given a yellow flag or warning. Finally, if it was above 3, then it would be flagged with red, and the patient would have a dangerous health metric.&lt;/p></description></item><item><title>Data Assessment</title><link>https://ckids-datafest.github.io/2023-fall-health-monitoring/data/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-health-monitoring/data/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Our initial dataset for this proof of concept was acquired from Kaggle. This data includes height, weight and pulse oximetry. We synthesized the rest of the attributes (blood pressure, heart rate, temperature and daily calories) by looking at the global normal ranges. And then we injected some anomalies into the dataset to help with analysis. Most of the data was synthesized since biomarker data is usually private and hard to access.&lt;/p>
 &lt;h2 id="data-overview-and-examples">Data Overview and Examples&lt;/h2>
-&lt;p>Each row of the dataset represents the data collected every time one of our hypothetical patients uses the smart toilet seat. It is sorted by date and contains synthetic data for one month from 03-01-2023 to 03-28-2023 for 630 patients assuming every patient uses the toilet seat twice a day. The patient.csv dataset contains the following parameters:
--patient_id
--date
--time
--length_of_time(sec)
--weight(lbs)
--pulse_oximetry
--heart_rate
--bp_sys
--bp_dia
--temperature&lt;/p>
+&lt;p>Each row of the dataset represents the data collected every time one of our hypothetical patients uses the smart toilet seat. It is sorted by date and contains synthetic data for one month from 03-01-2023 to 03-28-2023 for 630 patients assuming every patient uses the toilet seat twice a day. The patient.csv dataset contains the following parameters:&lt;/p>
+&lt;ol>
+&lt;li>patient_id&lt;/li>
+&lt;li>date&lt;/li>
+&lt;li>time&lt;/li>
+&lt;li>length_of_time(sec)&lt;/li>
+&lt;li>weight(lbs)&lt;/li>
+&lt;li>pulse_oximetry&lt;/li>
+&lt;li>heart_rate&lt;/li>
+&lt;li>bp_sys&lt;/li>
+&lt;li>bp_dia&lt;/li>
+&lt;li>temperature&lt;/li>
+&lt;/ol>
 &lt;p>Apart from this, we also created two other datasets:
 -Patient demographic - contains information like age and sex of a patient
 -Calories - to measure daily activity of a patient, this is a separate dataset since it is collected at the end of each day, and not a irregular intervals like the other parameters&lt;/p>
